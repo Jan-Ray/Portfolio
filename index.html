@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta Charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+       <link rel="stylesheet" href="style.css">
+       <script src="https://kit.fontawesome.com/fb09ededd1.js" crossorigin="anonymous">
+       </script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Aspiring Software Developer</p>
+                    <h1>Hi, I'm <span>Jan-Ray Hilomen</span><br>from Philippines</h1>
+                </div>
+            </div>
+        </div>
+<!--------about--------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Jan-Ray Pic.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello there! My name is Jan-Ray, and it's a pleasure to meet you. 
+                            I am a passionate individual with a diverse range of interests and talents. 
+                            I have always been fascinated by the world of technology and innovation, 
+                            which led me to explore the exciting realm of computer science and information technology.
+                        <br><br>Throughout my journey, I have honed my skills as a creative problem solver and a dedicated learner. 
+                            I thrive on challenges and enjoy the process of turning complex concepts into tangible solutions. 
+                            Whether it's developing software applications, designing user-friendly interfaces, 
+                            or just making trickshots guides in video games like valorant.
+                            I find immense satisfaction in creating meaningful and impactful projects.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('personal')">Personal Background</p>
+                                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="personal">
+                                <ul>
+                                    <li><span>Name:</span><br>Jan-Ray Osward G. Hilomen</li>
+                                    <li><span>Age</span><br>20</li>
+                                    <li><span>Sex</span><br>Male</li>
+                                    <li><span>Nationality</span><br>Filipino</li>
+                                    <li><span>Language</span><br>English<br>Filipino</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="skills">
+                                <ul>
+                                    <li>Teamwork</li>
+                                    <li>Communication</li>
+                                    <li>Programming Skills</li>
+                                    <li>Computer Literacy</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="hobbies">
+                                <ul>
+                                    <li>Cleaning</li>
+                                    <li>Learning</li>
+                                    <li>Singing</li>
+                                    <li>Watching Anime</li>
+                                    <li>Cooking</li>
+                                    <li>Playing Video Games</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents"id="education">
+                                <ul>
+                                    <li><span>2018 - Present</span><br>PHINMA University of Pangasinan, Downtown District, Dagupan City</li>
+                                    <li><span>2014 - 2018</span><br>Calasiao Comprehensive National High School, Calasiao, Pangasinan</li>
+                                    <li><span>2007 - 2014</span><br>Bued East Elementary School, Calasiao, Pangasinan</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-------services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Specializing in creating captivating web design solutions 
+                    that make a lasting impact on your online audience. 
+                    Combining aesthetics with functionality to deliver visually stunning 
+                    and user-friendly websites tailored to your unique business needs.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>UI/UX Design</h2>
+                <p>Specializing in crafting innovative and user-centric UI/UX designs 
+                    that elevate your digital products to new heights. 
+                    Combining creativity with a deep understanding of user behavior 
+                    to deliver seamless and intuitive user experiences.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game Development</h2>
+                <p>I am passionate about crafting immersive and captivating games 
+                    that transport players to extraordinary worlds of fun and excitement. 
+                    Working to bring your game ideas to life, offering end-to-end 
+                    game development solutions that ensure a seamless 
+                    gaming experience across platforms.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!------portfolio------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/game character.png">
+                        <div class="layer">
+                            <h3>Role-Playing Video Game App</h3>
+                            <p>The image here is one of the game enemy models 
+                                but in this phase it was being used as the main model 
+                                for the main character to test out the animations and mechanics in the game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-------contact-------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> hilomenjanray@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 09339513586</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/hilomen.janray/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/pulsefire_13"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/hilomenjanray"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Jan-Ray"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="images/Jan-Ray CV File.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit"class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Jan-Ray Hilomen</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>   
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxWxY_28EqI0nvnCLo9-YGCAzw_w-sbG1RgXUDSizHmMYZn4b-BVSRlK9QQlhKKsgq3/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent successfully";
+                        setTimeout(function() {
+                            msg.innerHTML = "";
+                        }, 5000);
+                        form.reset();
+                    })
+                .catch(error => console.error('Error!', error.message));
+            });
+        </script>
+    </body>
+</html>
